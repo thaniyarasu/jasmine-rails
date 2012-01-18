@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "rails", "~> 3.2.0"
+  s.add_dependency "rails", "~> 3.2.0.rc1"
   s.add_dependency "jasmine"
   s.add_dependency "jasmine-headless-webkit"
   
